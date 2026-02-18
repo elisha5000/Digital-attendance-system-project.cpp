@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use or reference this software in academic work, please cite it using the information below."
+type: software
+title: "Digital Attendance System for Hour-Based Lectures"
+authors:
+  - family-names: Twum
+    given-names: Elisha
+    # orcid: https://orcid.org/xxxx-xxxx-xxxx-xxxx   # optional – add if you have an ORCID iD
+contact:
+  - family-names: Twum
+    given-names: Elisha
+date-released: 2026-02-23          # Adjust to your actual submission date (YYYY-MM-DD)
+version: "1.0.0"                   # You can change this if you want (e.g. "midterm-2026")
+url: "https://github.com/your-username/your-repo-name"   # ← Replace with your real GitHub repo URL
+license: MIT                       # Change or remove if you used a different license
+abstract: "A console-based C++ application developed for managing student attendance in lectures. It supports student registration, lecture session creation, attendance marking (Present, Absent, Late), updates, and generation of attendance lists and summaries. Data is stored persistently using text files. This is the mid-semester capstone project for course EEE227 – Introduction to C++ Programming (HND Electrical Engineering, Level 200)."
+keywords:
+  - "C++"
+  - "attendance system"
+  - "file handling"
+  - "console application"
+  - "student project"
+  - "HND Electrical Engineering"
