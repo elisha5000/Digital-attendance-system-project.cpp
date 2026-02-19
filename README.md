@@ -5,9 +5,9 @@ A console-based C++ application designed to replace paper-based attendance takin
 **Course:** EEE227 – Introduction to C++ Programming  
 **Program:** HND Electrical Engineering (Level 200)  
 **Assessment:** Mid-Semester Capstone Project (30%)  
-**Submitted by:** Elisha Twum
-**Student ID:** 01243225D
-**Date:** February 2026
+*Submitted by:* Elisha Twum and Appiah Samuel Boateng
+                 (01243225D)          (01241322D)
+*Date:* February 18, 2026.
 
 ## Project Objectives (as per assignment)
 - Apply C++ concepts (variables, arrays, functions, classes) to a real engineering problem
