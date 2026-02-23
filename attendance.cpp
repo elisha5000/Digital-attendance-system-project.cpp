@@ -12,7 +12,7 @@
 using namespace std;
 
 // ────────────────────────────────────────────────
-// Simple structure for one attendance record
+//      Attendance record
 // ────────────────────────────────────────────────
 struct Attendance {
     string indexNumber;
@@ -20,7 +20,7 @@ struct Attendance {
 };
 
 // ────────────────────────────────────────────────
-// One lecture session
+//      Lecture session
 // ────────────────────────────────────────────────
 class LectureSession {
 public:
@@ -81,7 +81,7 @@ public:
     }
 
     void mark(const string& idx, char stat) {
-        // normalize input
+        // normalize status to uppercase
         stat = toupper(stat);
 
         if (stat != 'P' && stat != 'A' && stat != 'L') {
@@ -89,7 +89,7 @@ public:
             return;
         }
 
-        // update if exists
+        // update existing
         for (auto& r : records) {
             if (r.indexNumber == idx) {
                 r.status = stat;
@@ -384,4 +384,5 @@ int main() {
 
     saveStudents();
     return 0;
+
 }
